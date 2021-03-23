@@ -1,6 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path')
 
+// メインプロセスの設定
 const main = {
   mode: 'development',
   target: 'electron-main',
@@ -28,6 +29,7 @@ const main = {
   },
 }
 
+// レンダラープロセスの設定
 const renderer = {
   mode: 'development',
   target: 'electron-renderer',
