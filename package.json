@@ -1,0 +1,14 @@
+{
+  "name": "react-ts-electron",
+  "version": "1.0.0",
+  "description": "react + typescript + electronの基本構成",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sardonyx",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
